@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0d1117;
+    color: #c9d1d9;
+}
+
+/* Header */
+header {
+    background: #161b22;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #30363d;
+}
+
+header h1 {
+    color: #fff;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: #58a6ff;
+    text-decoration: none;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Perfil */
+.perfil {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #30363d;
+    margin-bottom: 10px;
+}
+
+/* Repositórios */
+.repos {
+    padding: 40px 20px;
+}
+
+.repos h2 {
+    margin-bottom: 20px;
+}
+
+.repo-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.repo-card h3 {
+    color: #58a6ff;
+}
+
+.repo-card a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.repo-card a:hover {
+    text-decoration: underline;
+}
+
+/* Sobre e Contato */
+.sobre, .contato {
+    padding: 40px 20px;
+}
