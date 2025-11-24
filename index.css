@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+
 body {
     background: #0d1117;
     color: #c9d1d9;
 }
+
 header {
     background: #161b22;
     padding: 20px;
@@ -16,51 +18,86 @@ header {
     align-items: center;
     border-bottom: 1px solid #30363d;
 }
+
 header h1 {
-    color: #fff;
+    color: red;
 }
+
 header nav a {
     margin-left: 20px;
     color: #58a6ff;
     text-decoration: none;
 }
+
 header nav a:hover {
     text-decoration: underline;
 }
+
+/* Perfil */
 .perfil {
-    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
     padding: 40px 20px;
 }
+
 .avatar {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    border: 3px solid #30363d;
-    margin-bottom: 10px;
+    border: 5px solid #30363d;
+    object-fit: cover;
 }
-.repos {
+
+.texto-perfil {
+    flex: 1;
+    text-align: center;  /* texto do perfil centralizado */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+
+/* Seções principais centralizadas */
+.sobre, .repos, .contato {
+    margin-top: 20px;
     padding: 40px 20px;
+    text-align: center;  /* centraliza texto nas seções */
 }
-.repos h2 {
-    margin-bottom: 10px;
-}
+
 .repo-card {
     background: #7946b3;
     border: 1px solid #794679;
     border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center; /* texto dos cards centralizado */
 }
+
 .repo-card h3 {
     color: #7946b3;
 }
+
 .repo-card a {
     color: #7946b3;
     text-decoration: none;
 }
+
 .repo-card a:hover {
     text-decoration: underline;
 }
-.sobre, .contato {
-    padding: 40px 20px;
+
+.link-github {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.link-github:hover {
+    text-decoration: underline;
+}
+
+.destaque {
+    color: #7f56d9;
 }
