@@ -45,17 +45,17 @@ header nav a:hover {
     margin-bottom: 10px;
 }
 .repo-card {
-    background: #161b22;
-    border: 1px solid #30363d;
+    background: #7946b3;
+    border: 1px solid #794679;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 15px;
 }
 .repo-card h3 {
-    color: #58a6ff;
+    color: #7946b3;
 }
 .repo-card a {
-    color: #58a6ff;
+    color: #7946b3;
     text-decoration: none;
 }
 .repo-card a:hover {
